@@ -32,7 +32,7 @@ var CoursePage = React.createClass({
         return (
             <div>
                 <h1>Courses</h1>
-                <Link activeClassName="active"  to="addCourse" className="btn btn-default">Add Course</Link>
+                <Link activeClassName="active" to="addCourse" className="btn btn-default">Add Course</Link>
                 <CourseList authors={this.state.authors} courses={this.state.courses} />
             </div>
         );
